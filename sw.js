@@ -1,5 +1,5 @@
 ﻿var static, defaultStatic = 'metw', id = 0
-var assets = ['/offline.html', '/favicon.ico', '/index.html', '/pages/admin.html',
+var assets = ['/offline.html', '/favicon.ico', '/index.html', '/pages/admin.html', '/pages/accounts-center.html',
     ...['index', 'theme'].map(name => `/css/${name}.css`),
     ...['index', 'metw', 'metw-gui', 'util'].map(name => `/js/${name}.js`)]
 var cachesEnabled = true
